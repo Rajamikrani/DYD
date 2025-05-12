@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   min-width: 100vh;
+  height: 100vh;
 }
 
 .container {
@@ -93,6 +94,11 @@ body {
     font-size: 1.2rem;
 }
 
+
+/* error */
+.alert{
+    margin-top: 20px;
+}
 
 /* Cards */
 .card {
